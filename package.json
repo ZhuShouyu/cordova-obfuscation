@@ -1,0 +1,33 @@
+{
+  "name": "cordova-obfuscation",
+  "version": "0.0.1",
+  "description": "minify, uglify and obfuscate the cordova project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhuShouyu/cordova-obfuscation.git"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "postuninstall": "node scripts/uninstall.js"
+  },
+  "dependencies": {
+    "mv": "^2.1.1"
+  },
+  "keywords": [
+    "minify",
+    "uglify",
+    "obfuscation",
+    "ionic",
+    "cordova"
+  ],
+  "author": "SiamLian <shouyuzhu@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZhuShouyu/cordova-obfuscation/issues"
+  },
+  "homepage": "https://github.com/ZhuShouyu/cordova-obfuscation#readme"
+}
